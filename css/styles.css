@@ -157,17 +157,6 @@ p {
 }
 
 
-
-/*iframe {
-	width: 400px;
-	height: 600px;
-}
-
-.fancybox-inner {
-	width: 400px !important;
-	height: 600px !important;
-}
-*/
 .signup {
 	display: none;
 	background: #9b59b6;
@@ -177,7 +166,7 @@ p {
 	padding-left: 40px;
 	font-family: 'Proxima Nova Light';
 }
-
+	
 .input-box {
 	background: #ecf0f1;
 	line-height:2;

@@ -1,0 +1,211 @@
+/*Start of Global Styling */
+
+*, *:before, *:after {
+	box-sizing:border-box;
+}
+body {
+	margin: 0px auto;
+	background: #9932cb;	
+	font-family: 'Proxima Nova SemiBold';
+}
+a { 
+	text-decoration: none;
+}
+h1, h3 {
+	font-size: 32px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: 'Proxima Nova Light';	
+}
+p {
+	line-height:2;
+	color: #ffffff;
+	font-family:'Proxima Nova Light';
+	margin-top: 1.5px;
+	margin-bottom: 0px;	
+	font-size: 20px; 
+}
+.link-is-not-default {
+	color: #ffffff;
+}
+.button-is-not-default {
+	/*display: none;*/
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	padding: 15px;
+	background: #ffffff;
+	color: #1abc9c;
+	/*margin-right: 7%;*/
+}
+
+.fancybox.button-is-not-default {
+	display: none;
+}
+
+.clearfix:after{
+	content: '';
+	display: table;
+	clear:both;
+}
+.wrapper {
+	margin: 0px auto;
+	max-width: 1000px;
+
+}
+.wrapper-footer {
+	max-width: auto;
+	margin: 0px auto;
+	padding: 0px auto;
+	padding: 1px;
+	background: white;
+}
+
+/*Start of Navigation for Header and Footer */
+.landing-headline-post,
+.hero-image {
+	padding-top: 40px;
+}
+
+.header { 
+	position: fixed;
+	width: 980px;
+}
+.header > .inline-nav li {
+	display: inline;	
+	float: right;
+	padding-left: 10px;	
+	font-family: 'Proxima Nova Regular';
+	font-size: 11.5px;
+	color: #ffffff;
+}
+.footer > .inline-nav li {
+	display: inline;	
+	float: left;
+}
+.wrapper-footer > .inline-nav {
+	padding-left: 11%;
+}
+.wrapper-footer > .inline-nav li {
+	display: inline;
+	padding-left: 4%;
+	font-family: 'Proxima Nova Regular';
+	font-size: 11.5px;
+}
+.inline-nav > li {
+	color: #acacac;
+}
+
+.footer {
+	margin-top: 30px;
+}
+
+
+/*Start of Posts (i.e. Text, Images, Buttons) */
+
+.block-ten {
+	padding-top: 70px;
+}
+.block-five {
+	float: left;
+	width: 50%;
+	color: #ffffff ;
+}
+.block-five img,
+.block-five h3,
+.block-five h1,
+.block-five p,
+.button-inline
+{
+	padding-left: 6%;
+}
+.block-five-alt img {
+	float: right;
+}
+.block-five h1 p {
+	color: red;
+}
+
+.blog-headline p{
+	text-align: center;
+	padding-left: 4%;
+}
+.blog-post p {
+	margin-top: -3%;
+}
+.landing-headline-post, {
+	margin-top: 4%;
+}
+
+.button-inline > .button { 
+	margin-right: 7%;
+}
+.button {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	border-radius: 3px;
+	padding: 15px;
+/*	margin-right: 7%;*/
+}
+.button-inline {
+	margin-top: 40px;
+}
+
+.button-is-selectable {
+	background: #ffffff;
+	color: #1abc9c;
+	font-family: 'Proxima Nova SemiBold';
+}
+
+
+
+/*iframe {
+	width: 400px;
+	height: 600px;
+}
+
+.fancybox-inner {
+	width: 400px !important;
+	height: 600px !important;
+}
+*/
+.signup {
+	display: none;
+	background: #9b59b6;
+}
+.signup h1 {
+	color: #ffffff;
+	padding-left: 40px;
+	font-family: 'Proxima Nova Light';
+}
+
+.input-box {
+	background: #ecf0f1;
+	line-height:2;
+	color: #ffffff;
+	font-family:'Proxima Nova Light';
+	margin-top: 1.5px;
+	margin-bottom: 0px;	
+	font-size: 20px; 
+	padding-left: 10px;
+}
+.input-button{
+	margin-top: 15px;
+}
+.button-is-selectable.input-button {
+	width: 270px;
+	margin-bottom: 10px;
+	font-size: 20px;	
+}
+
+.input-box-container {
+	padding-left: 40px;
+	padding-right: 40px;	
+}
+
+input:focus {
+	background: #fdffff;
+}
+
+.fancybox-skin {
+	border: solid 10px #fdffff;
+}

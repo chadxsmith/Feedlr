@@ -1,0 +1,258 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*, *:before, *:after {
+	box-sizing:border-box;
+}
+.member {
+	padding-left:0px;
+	padding-right:0px;
+	font-size: 16px;
+}
+.container {
+	width: 1000px;
+}
+/*end of Global Styling*/
+
+
+/* start of "body section"*/
+
+/*section*/
+	.member .body {
+		padding-bottom: 4em;	
+		background:#9932cb;
+	}
+	.button-group {
+		padding-bottom: 2.5em;
+	}
+	.page-and-blog {
+		color: #ffffff;
+		line-height: 2em;
+	}
+	.page-title-and-summary {
+		padding-top: 3em;
+	}		
+	.blog-title-and-summary-features {
+		padding-top: 2em;
+	}	
+
+
+	.blog-narrative {
+		padding-top: 2em;
+	}
+	/* Portrait & landscape phone */
+	@media (max-width: 480px)  {
+		.blog-narrative {
+			padding-top: 0em;
+		}
+		.page-title-and-summary {
+		padding-top: 2em;
+	}	
+
+	}
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px) { 
+	
+	}
+	/* Large desktop */
+	@media (min-width: 1200px) {
+	
+	}
+/*buttons*/
+	.btn {
+		border: 1px solid #ffffff;
+		padding: 1.3em;
+		margin-right: 2em;
+		text-transform: uppercase
+	}
+	.btn-lightbox {
+		background: #ffffff;
+		color: #1abc9c;
+		font-weight: bold;
+	}
+	/* Portrait & landscape phone */
+	@media (max-width: 480px)  {
+	
+	}
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px) { 
+
+	}
+	/* Large desktop */
+	@media (min-width: 1200px) {
+	
+	}
+/*text*/
+	.body .container .nav {
+		padding-top: 1em;
+	}
+	.body .container .nav ul {
+		padding-top: .5em;
+	}
+	.body .container .nav ul a {
+		color: white;
+		float: right;
+		padding-left: 2em;
+		list-style-type: none;
+	}
+	.body .container .nav a {
+		color: red;
+		text-decoration:none;
+		float: left;
+	}
+ 	.page-title,
+ 	.blog-title-features {
+ 		font-size: 2em;
+ 	}
+	.page-summary,
+	.blog-summary-features {
+		font-size: 1.250em;
+		font-family: 'Proxima Nova Light';
+	}
+
+	.blog-description-and-narrative {
+		color: #ffffff;
+	} 
+	.blog-description .row .col-12-md h2 {
+		padding-top: 1em;
+	;	padding-left: 1.5em;
+		font-size: 1.250em;
+		font-family: 'Proxima Nova Light';	
+	}
+	.blog-narrative-text {
+		font-size: 1.250em;
+		font-family: 'Proxima Nova Light';
+		line-height: 2;	
+	}
+	/* Portrait & landscape phone */
+	@media (max-width: 480px)  {
+		.body .container .nav,
+		.page-title-and-summary, 
+		.blog-title-and-summary-features,
+		.blog-description-and-narrative  {
+			max-width: 435px;
+		}
+		.blog-description .row .col-12-md h2 {
+			padding-top: .8em;
+			padding-left: .8em;
+			line-height: 2em;
+		}
+		.blog-narrative-text {
+			padding-top: .9em;
+		}
+	}
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px) { 
+/*		.page-title-and-summary,
+		.blog-title-and-summary-features   {
+			max-width: 500px;
+			margin-left: 100px;
+		}*/
+		.body .container .nav ul {
+			max-width: 710px;
+		}	
+	}
+	/* Large desktop */
+	@media (min-width: 1200px) {
+	
+	}	
+/*images*/
+	.Screen_Food_Ordering {
+		padding-top: 1.3em;
+	}
+	.users_row2 {
+		padding-top: 1.6em;
+	}
+	.users_row3,
+	.Screen_Food_SelectingFoodTruck
+	 {
+		padding-top: 5em; 
+	}
+	.users_row4 {
+		padding-top: 5em;
+	}
+	.Building,
+	.Flag {
+		padding-top: 1em;
+	}
+	.col-md-6 .blog-title-and-summary-features .image-right {
+		float: right;
+	}	
+	/* Portrait & landscape phone */
+	@media (max-width: 480px)  {
+		.Screen_Food_Ordering,
+		.image-right,
+		.Screen_Food_SelectingFoodTruck {
+			display: none;
+		}
+		.Truck {
+			padding-top: 2em;
+			padding-bottom: .7em;
+		}
+		.Flag {
+			display: none;
+		}
+	}
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px) { 
+		.Screen_Food_Ordering,
+		.image-right,
+		.Screen_Food_SelectingFoodTruck {
+			display: none;
+		}
+		.Truck {
+			padding-top: 2em;
+			padding-bottom: .7em;
+		}
+		.Flag {
+			display: none;
+		}
+	}
+	/* Large desktop */
+	@media (min-width: 1200px) {
+	
+	}
+/* end of "body section"*/
+
+
+/*start of footer section*/
+
+/*section*/
+	.member .footer {
+		padding-top: 1.7em;
+		background: #ffffff;
+	}
+
+/*text*/
+	.footer .row .col-md-12 .nav ul {
+		padding-left: 11em;
+		font-size: .85em;
+	}
+	.footer .row .col-md-12 .nav ul .disabled {
+	   color: #acacac;
+	   pointer-events: none;
+   	   cursor: default;	
+	}
+	.footer .row .col-md-12 .nav ul a:nth-child(2),
+	.footer .row .col-md-12 .nav ul a:nth-child(3){
+		padding-left: 3em;
+		list-style-type: none;
+	}
+	/* Portrait & landscape phone */
+	@media (max-width: 480px)  {
+		.footer .row .col-md-12 .nav ul {
+			padding-left: 2em;	
+		}
+	}
+
+
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px) { 
+
+	}
+
+	/* Large desktop */
+	@media (min-width: 1200px) {
+		
+	}
